@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peopleList</title>
+</head>
+<body>
+    <div id="list container">
+        <ol>
+            {% for person in data %}
+                <li>{{ person.voornaam }}{{ person.familienaam }}, {{ person.geboortedatum }} verbleef {{ person.verblijfsduur }} in het ziekenhuis</li>
+            {% endfor %}
+        </ol>
+    </div>
+</body>
+</html>

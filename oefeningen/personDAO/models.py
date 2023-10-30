@@ -12,4 +12,4 @@ class PersonDAO(Model):
     geboortetijdstip: Mapped[DateTime] = mapped_column(DateTime)
     verblijfsduur: Mapped[int] = mapped_column(Integer)
     def __repr__(self):
-        return f'PersonDAO({self.voornaam}, "{self.familienaam}")'
+        return f'PersonDAO({self.voornaam}, {self.familienaam}, {self.geboortetijdstip}, {self.verblijfsduur})'

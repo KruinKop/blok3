@@ -1,6 +1,6 @@
 from db import Model, Session, engine
 from models import PersonDAO
-from datetime import datetime, timedelta
+from datetime import datetime
 
 geboortedatum = datetime(1994,3,31,14,3)
 velatenZiekenhuis = datetime(1994,4,1,17,45)

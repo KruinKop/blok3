@@ -1,0 +1,828 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'showEntries' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:08:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:08:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'showEntries' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:09:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:14:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:16:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 202, in _key_not_found
+    self._key_fallback(key, None)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 141, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'voornaam'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 20, in showEntries
+    print(row.voornaam)
+          ^^^^^^^^^^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 60, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 57, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 204, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: voornaam
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:17:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 16, in showEntries
+    q = select(PersonDAO.naam)
+               ^^^^^^^^^^^^^^
+AttributeError: type object 'PersonDAO' has no attribute 'naam'
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:18:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 16, in showEntries
+    q = select(PersonDAO.naam)
+               ^^^^^^^^^^^^^^
+AttributeError: type object 'PersonDAO' has no attribute 'naam'
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:18:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:19:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:21:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:22:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 19, in showEntries
+    r = session.execute(q).all()
+        ^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2306, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2086, in _execute_internal
+    statement = coercions.expect(roles.StatementRole, statement)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/sql/coercions.py", line 413, in expect
+    resolved = impl._literal_coercion(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/sql/coercions.py", line 651, in _literal_coercion
+    self._raise_for_expected(element, argname)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/sql/coercions.py", line 535, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Executable SQL or text() construct expected, got [(PersonDAO(Jesse, Zaenen, 1994-03-31 14:03:00, 99720),)].
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:22:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:23:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:24:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:24:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:25:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:26:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 202, in _key_not_found
+    self._key_fallback(key, None)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 141, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'voornaam'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 19, in showEntries
+    print(res[0].voornaam)
+          ^^^^^^^^^^^^^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 60, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 57, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 204, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: voornaam
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:31:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:32:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 23, in showEntries
+    "achternaam": person[0].achternaam,
+                  ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PersonDAO' object has no attribute 'achternaam'
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:37:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 28, in showEntries
+    print(json.dumps(personDict, indent=4))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:38:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:39:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:41:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:42:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:43:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:43:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 28, in showEntries
+    return render_template("index.html", data = personList)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/templating.py", line 151, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/templates/index.html", line 12, in template
+    <li>{{ person.voornaam }}{{ person.familienaam }},{{ person.geboortedatum }} verbleef {{ person.verblijfsduur }} in het ziekenhuis</li>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endfor' or 'else'. The innermost block that needs to be closed is 'for'.
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:52:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 28, in showEntries
+    return render_template("index.html", data = personList)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/templating.py", line 151, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/templates/index.html", line 12, in template
+    <li>{{ person.voornaam }}{{ person.familienaam }},{{ person.geboortedatum }} verbleef {{ person.verblijfsduur }} in het ziekenhuis</li>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endfor' or 'else'. The innermost block that needs to be closed is 'for'.
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:52:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 11:53:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:01:10] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:02:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:02:19] "[31m[1mGET /form HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:03:27] "[31m[1mGET /form HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:03:30] "[31m[1mGET /form HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:04:27] "[31m[1mGET /peoplesform HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:08:12] "[31m[1mGET /peoplesform HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:10:40] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:10:57] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:12:24] "POST /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:12:59] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:14:02] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:15:22] "POST /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:20:39] "GET /peoplesform HTTP/1.1" 200 -
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 53, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 18, in persistData
+    verschil_in_sec = (pdict.vertrekdatum - pdict.geboortedatum).total_second()
+                       ^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'vertrekdatum'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:21:22] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:24:31] "GET /peoplesform HTTP/1.1" 200 -
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 53, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 18, in persistData
+    verschil_in_sec = (pdict["vertrekdatum"] - pdict["geboortedatum"]).total_second()
+                       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:25:04] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 54, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 19, in persistData
+    verschil_in_sec = (datetime.strptime(pdict["vertrekdatum"], "%d-%m-%y %H:%M:%S") - datetime.strptime(pdict["geboortedatum"],"%d-%m-%y %H:%M:%S")).total_seconds()
+                       ^^^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'strptime'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:32:54] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 59, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 24, in persistData
+    verschil = berekenverschil(pdict["vertrekdatum"],pdict["geboortedatum"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 17, in berekenverschil
+    timeObjA = datetime.strptime(timeA,"%d-%m-%y %H:%M:%S")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2000-01-03T12:30' does not match format '%d-%m-%y %H:%M:%S'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:37:41] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 59, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 24, in persistData
+    verschil = berekenverschil(pdict["vertrekdatum"],pdict["geboortedatum"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 17, in berekenverschil
+    timeObjA = datetime.strptime(timeA,"%y-%m-%d %H:%M")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2000-01-03T12:30' does not match format '%y-%m-%d %H:%M'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:39:09] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on /peoplesform [POST]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    context = constructor(
+              ^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1455, in _init_compiled
+    l_param: List[Any] = [
+                         ^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1456, in <listcomp>
+    flattened_processors[key](compiled_params[key])
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/dialects/sqlite/base.py", line 1067, in process
+    raise TypeError(
+TypeError: SQLite DateTime type only accepts Python datetime and date objects as input.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 59, in formHandler
+    persistData(formdata)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 26, in persistData
+    with session.begin():
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/util.py", line 146, in __exit__
+    with util.safe_reraise():
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/util.py", line 144, in __exit__
+    self.commit()
+  File "<string>", line 2, in commit
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1256, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1231, in _prepare_impl
+    self.session.flush()
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4310, in flush
+    self._flush(objects)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4445, in _flush
+    with util.safe_reraise():
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4406, in _flush
+    flush_context.execute()
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 1226, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1639, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2343, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    context = constructor(
+              ^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1455, in _init_compiled
+    l_param: List[Any] = [
+                         ^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1456, in <listcomp>
+    flattened_processors[key](compiled_params[key])
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/dialects/sqlite/base.py", line 1067, in process
+    raise TypeError(
+sqlalchemy.exc.StatementError: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO personen (voornaam, familienaam, geboortetijdstip, verblijfsduur) VALUES (?, ?, ?, ?)]
+[parameters: [{'verblijfsduur': 174600.0, 'voornaam': 'John', 'geboortetijdstip': '2000-01-01T12:00', 'familienaam': 'Doe'}]]
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:42:11] "[35m[1mPOST /peoplesform HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2023 09:45:14] "POST /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:12:22] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:12:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:14:09] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:14:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:33:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:33:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:33:52] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:33:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:34:28] "POST /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:34:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:34:39] "GET /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:34:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:35:03] "POST /peoplesform HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:35:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:35:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:35:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:36:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:36:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:37:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:37:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 202, in _key_not_found
+    self._key_fallback(key, None)
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 141, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'voornaam'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 41, in showEntries
+    "voornaam": person.voornaam,
+                ^^^^^^^^^^^^^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 60, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 57, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/sqlalchemy/engine/result.py", line 204, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: voornaam
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:39:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:39:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 41, in showEntries
+    "voornaam": person[1].voornaam,
+                ~~~~~~^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 48, in sqlalchemy.cyextension.resultproxy.BaseRow.__getitem__
+IndexError: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:39:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 41, in showEntries
+    "voornaam": person[1].voornaam,
+                ~~~~~~^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 48, in sqlalchemy.cyextension.resultproxy.BaseRow.__getitem__
+IndexError: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:40:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jessezaenen/Library/CloudStorage/OneDrive-APHogeschoolAntwerpen/Documenten/School/2IOT/23-24 Python advanced/blok3/oefeningen/personDAO/main.py", line 42, in showEntries
+    "voornaam": person[0].voornaam,
+                ~~~~~~^^^
+TypeError: 'PersonDAO' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:41:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:41:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:48:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:48:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:54:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2023 12:54:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

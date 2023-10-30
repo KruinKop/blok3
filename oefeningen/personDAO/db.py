@@ -11,6 +11,6 @@ class Model(DeclarativeBase):
         "pk": "pk_%(table_name)s",
 })
     
-url = "sqlite:///voorbeeld_db_1.sqlite"
+url = "sqlite:///people.sqlite"
 engine = create_engine(url)
 Session = sessionmaker(engine)

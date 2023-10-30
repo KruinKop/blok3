@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personform</title>
+</head>
+<body>
+    <!--making a form to enter person information, voornaam, familienaam, geboortedatum en vertrekdatum ziekenhuis-->
+    <form action="/peoplesform" method="post">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" name="voornaam" id="voornaam">
+        <label for="familienaam">Familienaam</label>
+        <input type="text" name="familienaam" id="familienaam">
+        <label for="geboortedatum">Geboortedatum</label>
+        <input type="datetime-local" name="geboortedatum" id="geboortedatum">
+        <label for="vertrekdatum">Vertrekdatum ziekenhuis</label>
+        <input type="datetime-local" name="vertrekdatum" id="vertrekdatum">
+        <input type="submit" value="submit">
+</body>
+</html>
