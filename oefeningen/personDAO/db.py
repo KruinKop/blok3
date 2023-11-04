@@ -1,8 +1,9 @@
-import os
-from sqlalchemy import create_engine, MetaData
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
-class Model(DeclarativeBase):
+class Base(DeclarativeBase):
     metadata = MetaData(naming_convention={
         "ix": "ix_%(column_0_label)s",
         "uq": "uq_%(table_name)s_%(column_0_name)s",
@@ -11,6 +12,4 @@ class Model(DeclarativeBase):
         "pk": "pk_%(table_name)s",
 })
     
-url = "sqlite:///people.sqlite"
-engine = create_engine(url)
-Session = sessionmaker(engine)
+db = SQLAlchemy(model_class=Base)
