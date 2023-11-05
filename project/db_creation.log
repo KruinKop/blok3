@@ -1,0 +1,6 @@
+2023-11-05 07:57:04,831 - [2023-11-05 07:57:04] Inputs: ((), {}), Output: <Response streamed [200 OK]>
+2023-11-05 07:58:44,090 - Inputs: ((), {}), Output: <Response streamed [200 OK]>
+2023-11-05 07:59:27,263 - Inputs: ((), {}), Output: <Response 199 bytes [302 FOUND]>
+2023-11-05 07:59:27,277 - Inputs: ((), {}), Output: <Response streamed [200 OK]>
+2023-11-05 07:59:49,695 - Inputs: ((), {}), Output: <Response streamed [200 OK]>
+2023-11-05 09:10:10,532 - Inputs: ((<__main__.Afspraak object at 0x10a246ed0>,), {}), Output: de request is succesvol verwerkt

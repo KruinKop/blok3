@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointmentform</title>
+</head>
+<body>
+    <!--making a form to enter person information, titel, familienaam, starttijdstip en duurtijd-->
+    <form action="/nieuw" method="post">
+        <label for="titel">titel</label>
+        <input type="text" name="titel" id="titel">
+        <label for="starttijdstip">starttijdstip</label>
+        <input type="datetime-local" name="starttijdstip" id="starttijdstip">
+        <label for="duurtijd">einde afspraak</label>
+        <input type="datetime-local" name="duurtijd" id="duurtijd">
+        <input type="submit" value="submit">
+</body>
+</html>

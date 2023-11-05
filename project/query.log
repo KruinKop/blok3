@@ -1,0 +1,25 @@
+2023-11-05 07:59:57,452 - Inputs: ((), {}), Output: <Response streamed [200 OK]>
+2023-11-05 08:00:01,168 - Inputs: ((), {}), Output: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opkomende afspraken</title>
+</head>
+<body>
+    
+    <div id="list container">
+        <ol>
+            
+                <li>dokter op 2023-11-12 19:24:00 gedurende 0.52 uur</li>
+            
+        </ol>
+    </div>
+    
+</body>
+</html>
+2023-11-05 08:26:13,489 - Inputs: ((<__main__.Afspraak object at 0x1030ef510>,), {}), Output: [{'titel': 'dokter', 'starttijd': '12-11-23 19:24:00', 'duurtijd': '0.52 uur'}, {'titel': 'huisarts', 'starttijd': '10-10-24 12:00:00', 'duurtijd': '2.00 uur'}, {'titel': 'school', 'starttijd': '05-11-23 09:00:00', 'duurtijd': '1.00 uur'}, {'titel': 'vliegles', 'starttijd': '05-11-23 19:23:00', 'duurtijd': '0.45 uur'}]
+2023-11-05 08:26:47,858 - Inputs: ((<__main__.Afspraak object at 0x1098bae90>,), {}), Output: <Response 395 bytes [200 OK]>
+2023-11-05 08:44:33,191 - Inputs: ((<__main__.Afspraak object at 0x102efb210>,), {}), Output: [{'titel': 'dokter', 'starttijd': '12-11-23 19:24', 'duurtijd': '0.52 uur'}, {'titel': 'huisarts', 'starttijd': '10-10-24 12:00', 'duurtijd': '2.00 uur'}, {'titel': 'school', 'starttijd': '05-11-23 09:00', 'duurtijd': '1.00 uur'}, {'titel': 'vliegles', 'starttijd': '05-11-23 19:23', 'duurtijd': '0.45 uur'}]
+2023-11-05 09:04:42,565 - Inputs: ((<__main__.Afspraak object at 0x110bf4650>,), {}), Output: [{'titel': 'dokter', 'starttijd': '12-11-23 19:24', 'duurtijd': '0.52 uur'}, {'titel': 'huisarts', 'starttijd': '10-10-24 12:00', 'duurtijd': '2.00 uur'}, {'titel': 'piano', 'starttijd': '12-11-23 19:24', 'duurtijd': '0.43 uur'}, {'titel': 'school', 'starttijd': '05-11-23 09:00', 'duurtijd': '1.00 uur'}, {'titel': 'vliegles', 'starttijd': '05-11-23 19:23', 'duurtijd': '0.45 uur'}]
+2023-11-05 09:08:23,718 - Inputs: ((<__main__.Afspraak object at 0x10c6e63d0>,), {}), Output: [{'titel': 'dokter', 'starttijd': '12-11-23 19:24', 'duurtijd': '0.52 uur'}, {'titel': 'huisarts', 'starttijd': '10-10-24 12:00', 'duurtijd': '2.00 uur'}, {'titel': 'piano', 'starttijd': '12-11-23 19:24', 'duurtijd': '0.43 uur'}, {'titel': 'school', 'starttijd': '05-11-23 09:00', 'duurtijd': '1.00 uur'}, {'titel': 'vliegles', 'starttijd': '05-11-23 19:23', 'duurtijd': '0.45 uur'}]

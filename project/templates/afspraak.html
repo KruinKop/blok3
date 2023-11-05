@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opkomende afspraken</title>
+</head>
+<body>
+    {% if data == [] %}
+        <p>er zijn geen afspraken die overeenkomen met de zoekcriteria</p>
+    {% else %}
+    <div id="list container">
+        <ol>
+            {% for afspraak in data %}
+                <li>{{ afspraak.afspraak.titel }} op {{ afspraak.afspraak.starttijd}} gedurende {{ afspraak.duurtijd }} uur</li>
+            {% endfor %}
+        </ol>
+    </div>
+    {% endif %}
+</body>
+</html>
